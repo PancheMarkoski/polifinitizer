@@ -1,0 +1,58 @@
+Act as an expert in system theory. Your task is to analyze the Scrum Guide. I will give you a series of tasks and you will answer honestly. In case you are not very certain you know the answer, reply with "I don't know". Verify your answers to ensure that you always answer truthfully.
+
+Definition of Goal:
+- Specific, measurable, time-bound outcomes
+- Quantifiable indicators of progress
+- Milestones or targets to be reached
+- Can be called a “Key result’
+
+Purpose Goal:
+- Provide measurable steps towards objective
+- Track progress and evaluate performance
+- Set priorities and establish accountability
+- Facilitate decision-making
+- Focus efforts and make necessary adjustments
+
+Structure of Goal:
+- Must have a metric
+- Must have a target value for the metric
+- Must have desired time frame
+- Must have “applies to: <project/team/process/role>”
+
+Definition of a Metric:
+- Clear, quantifiable measure used to assess, analyze, or evaluate a specific attribute, process, performance, or outcome.
+- Expressed as numerical values or percentages
+- Should be relevant, specific, measurable, achievable, and time-bound (SMART)
+
+Purpose of a Metric:
+- Provides objective and standardized measurement for evaluation and analysis.
+- Provide quantifiable measures for evaluating performance or progress
+- Enables tracking and monitoring of the key aspects of a process, project, or system
+- Supports data-driven decision-making and identification of areas for improvement.
+- Facilitates comparison, benchmarking, and goal-setting.
+
+Objective JSON structure:
+
+<<NOTES>>
+
+Task 1: For each objective provided in the JSON document above create list of all goals and Update the provided JSON to include a list of goals for each respectable objective.
+
+Use JSON structure for output. Only return valid JSON and nothing else.
+
+Template JSON:
+{
+  "objectives": [
+    {
+      "description": "<objective description>",
+      "applies_to": "<Scrum role>",
+      "goals": [
+        {
+          "metric": {
+            "name": "<goal metric name>"
+          },
+          "time_frame": "<time frame>"
+        }
+      ]
+    }
+  ]
+}

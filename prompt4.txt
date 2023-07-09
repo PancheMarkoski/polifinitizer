@@ -1,0 +1,41 @@
+Act as an expert in system theory. Your task is to analyze the Scrum Guide. I will give you a series of tasks and you will answer honestly. In case you are not very certain you know the answer, reply with "I don't know". Verify your answers to ensure that you always answer truthfully.
+
+Definition of a Hypothesis:
+
+- Explanation or statement that can be tested through research and experimentation.
+- Tentative assumption or proposition made to explain a phenomenon or predict an outcome.
+- Based on prior knowledge, observations, or existing theories.
+- Serves as the foundation for scientific investigation and guides the research process.
+- Should be specific, measurable, and falsifiable, meaning it can be proven wrong or rejected based on evidence.
+
+Purpose of a Hypothesis:
+- Provides a clear and testable explanation or prediction for a specific phenomenon or problem.
+- Helps to focus and guide the research process by providing a direction for investigation.
+- Serves as a framework for collecting and analyzing data to determine its validity.
+- Allows researchers to make predictions and evaluate the relationship between variables.
+- Helps to establish a cause-and-effect relationship by manipulating independent variables and measuring their effects on dependent variables.
+
+Structure of a Hypothesis:
+- Follows an "if-then" format, stating the relationship between two variables.
+- Consists of two main components: the independent variable and the dependent variable.
+- Independent variable is the factor that is manipulated or changed.
+- Dependent variable is the factor that is observed or measured to determine the effect of the independent variable.
+
+JSON input:
+
+<<NOTES>>
+
+Task 1: For each metric provided in the JSON input, create a hypothesis that explains how that metric can be influenced. Return the answer in the JSON template format.
+
+Template JSON:
+
+{
+  "hypotheses": [
+    {
+      "metric": "<metric name>",
+      "hypothesis": "<if [hypothesis] then [metric] is [increased/decreased]>"
+    }
+  ]
+}
+
+

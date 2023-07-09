@@ -1,0 +1,34 @@
+
+Act as an expert in system theory. Your task is to analyze <<SUMMARY>> (from the Scrum Guide). I will give you a series of tasks and you will answer honestly. In case you are not very certain you know the answer, reply with "I don't know". Verify your answers to ensure that you always answer truthfully. Do you understand these instructions?
+
+Definition of Objective:
+- Clear, qualitative statement of desired improvement
+- Provides broad vision and direction
+- Does not specify precise numerical targets
+
+Purpose of Objective:
+- Strategic guidance and clarity
+- Establishes desired state or improvement
+- Guides goal-setting and decision-making
+- Aligns efforts and motivates stakeholders
+
+Structure of Objective:
+- Must have a description
+- Should have “applies to: <project/team/process/role>”
+
+Task 1: Extract 5 Objectives in context of Scrum Guide that apply to the role "Product Owner" using the above definitions, purposes and structures of Objectives
+Task 2: Create list of all objectives and return it using “Structure of Objective” provided above
+
+Use JSON structure for output. Only return valid JSON and nothing else.
+
+Template JSON:
+{
+  "objectives": [
+    {
+      "description": "<objective description>",
+      "applies_to": "<Scrum role>"
+    }
+  ]
+}
+
+

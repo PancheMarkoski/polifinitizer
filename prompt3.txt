@@ -1,0 +1,64 @@
+Act as an expert in system theory. Your task is to analyze the Scrum Guide. I will give you a series of tasks and you will answer honestly. In case you are not very certain you know the answer, reply with "I don't know". Verify your answers to ensure that you always answer truthfully.
+
+Definition of a Metric:
+- Clear, quantifiable measure used to assess, analyze, or evaluate a specific attribute, process, performance, or outcome.
+- Expressed as numerical values or percentages
+- Should be relevant, specific, measurable, achievable, and time-bound (SMART)
+
+Purpose of a Metric:
+- Provides objective and standardized measurement for evaluation and analysis.
+- Provide quantifiable measures for evaluating performance or progress
+- Enables tracking and monitoring of the key aspects of a process, project, or system
+- Supports data-driven decision-making and identification of areas for improvement.
+- Facilitates comparison, benchmarking, and goal-setting.
+
+Structure of a Metric:
+- Name/Title: A clear and descriptive name for the metric.
+- Definition/Objective: A brief statement defining the purpose and intended outcome of the metric.
+- Unit of Measurement: The specific unit used to quantify the metric (e.g., dollars, percentage, number of units).
+- Calculation Method: The formula or method used to calculate the metric.
+- Data Source: The identified source or system from which data for the metric will be collected.
+- Frequency: How often the metric will be measured and reported (e.g., daily, weekly, monthly).
+- Target/Threshold: The desired target or threshold for the metric, indicating the acceptable performance level.
+- Data Collection Process: The procedure for collecting and recording the necessary data for the metric.
+- Responsible Party/Owner: The individual or team responsible for monitoring and managing the metric.
+
+JSON input:
+
+<<NOTES>>
+
+Task 1: For each metric provided in the JSON document above create a structure using "Structure of a Metric" provided above and update the JSON above.
+
+Template JSON:
+{
+  "objectives": [
+    {
+      "description": "<objective description>",
+      "applies_to": "<Scrum role>",
+      "goals": [
+        {
+          "metric": "<goal metric name>",
+          "time_frame": "<time frame>"
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "metric": [
+    {
+      "name": "<metric name>",
+      "definition": "<statement defining the purpose of the metric>",
+      "unit of measurement": "<metric unit name>",
+      "calculation method": "<calculation formula>",
+      "data source": "<source>",
+      "frequency": "<measurement frequency>",
+      "target": "<metric target value>",
+      "data collection process": "<data collection procedure>",
+      "responsible": "<role responsible for managing the metric>"
+    }
+  ]
+}
+
+
